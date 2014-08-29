@@ -24,6 +24,7 @@ public class TestEntry {
 		TestClass4 tc4_2 = TestClass4.INSTANCE;
 		TestClass5 tc5 = TestClass5.getInstance();
 		TestClass5 tc5_2 = TestClass5.getInstance();
+		System.out.println("Hello,world!");
 	}
 
 }
