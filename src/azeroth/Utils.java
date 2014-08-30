@@ -6,7 +6,7 @@ public class Utils {
 
 	public Utils() {
 	}
-	//create a new hashmap instance
+	//create a new hashMap instance
 	public static <K,V>HashMap<K,V> newInstance(){
 		return new HashMap<K,V>();
 		
