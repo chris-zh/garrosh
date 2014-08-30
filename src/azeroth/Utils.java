@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Utils {
+	
+	private static final Utils INSTANCE = new Utils();
+	
+	public static Utils newUtils () {
+		return INSTANCE;
+	}
 
 	public Utils() {
 	}

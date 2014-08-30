@@ -33,6 +33,13 @@ public class TestEntry {
 		list1.add(1);
 		list1.add(2);
 		System.out.println(list1);
+		Utils utils = Utils.newUtils();
+		Utils u2 = Utils.newUtils();
+		//
+		TestClass1 tc11 = new TestClass1();
+		TestClass1 tc22 = new TestClass1();
+		
+		
 		
 	}
 
