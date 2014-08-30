@@ -1,5 +1,6 @@
 package azeroth.horde.orgrimmar;
 import java.util.HashMap;
+import java.util.List;
 
 import azeroth.Utils;
 
@@ -14,7 +15,7 @@ public class TestEntry {
 	public static void main(String[] args) {
 
 		System.out.println("Lok'tar ogar");
-		HashMap<String,String> map = Utils.newInstance();
+		HashMap<String,String> map = Utils.newHashMap();
 		map.put("1", "1");
 //		System.out.println(map.get("1").toString());
 		TestClass1 tc1 = new TestClass1();
@@ -25,6 +26,14 @@ public class TestEntry {
 		TestClass5 tc5 = TestClass5.getInstance();
 		TestClass5 tc5_2 = TestClass5.getInstance();
 		System.out.println("Hello,world!");
+		
+		HashMap map2 = new HashMap();
+		HashMap map3 = Utils.newHashMap();
+		List list1 = Utils.newArrayList();
+		list1.add(1);
+		list1.add(2);
+		System.out.println(list1);
+		
 	}
 
 }
