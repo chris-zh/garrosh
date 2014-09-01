@@ -39,7 +39,11 @@ public class TestEntry {
 		TestClass1 tc11 = new TestClass1();
 		TestClass1 tc22 = new TestClass1();
 		
-		
+		TestSingleton tst = TestSingleton.newTestSingleten();
+		System.out.println(tst);
+		TestSingleton tst2 = TestSingleton.newTestSingleten();
+		System.out.println(tst2);
+		System.out.println(Integer.SIZE);
 		
 	}
 
