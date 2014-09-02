@@ -14,7 +14,7 @@ public class TestEntry {
 	 */
 	public static void main(String[] args) {
 
-		System.out.println("Lok'tar ogar");
+//		Utils.print("Lok'tar ogar");
 		HashMap<String,String> map = Utils.newHashMap();
 		map.put("1", "1");
 //		System.out.println(map.get("1").toString());
@@ -25,25 +25,48 @@ public class TestEntry {
 		TestClass4 tc4_2 = TestClass4.INSTANCE;
 		TestClass5 tc5 = TestClass5.getInstance();
 		TestClass5 tc5_2 = TestClass5.getInstance();
-		System.out.println("Hello,world!");
 		
 		HashMap map2 = new HashMap();
 		HashMap map3 = Utils.newHashMap();
 		List list1 = Utils.newArrayList();
 		list1.add(1);
 		list1.add(2);
-		System.out.println(list1);
-		Utils utils = Utils.newUtils();
-		Utils u2 = Utils.newUtils();
+//		Utils utils = Utils.newUtils();
+//		Utils u2 = Utils.newUtils();
 		//
 		TestClass1 tc11 = new TestClass1();
 		TestClass1 tc22 = new TestClass1();
 		
-		TestSingleton tst = TestSingleton.newTestSingleten();
-		System.out.println(tst);
-		TestSingleton tst2 = TestSingleton.newTestSingleten();
-		System.out.println(tst2);
-		System.out.println(Integer.SIZE);
+//		TestSingleton tss = TestSingleton.INSTANCE;
+//		TestSingleton tss2 = TestSingleton.INSTANCE;
+//		System.out.println(tss.a);
+//		System.out.println(tss2.a);
+//		tss.a = 15;
+//		System.out.println(tss.a);
+//		System.out.println(tss2.a);
+//		TestSingleton tx1 = TestSingleton.instance;
+//		TestSingleton tx2 = TestSingleton.instance;
+		HashMap map4 = Utils.newHashMap();
+		map4.put("1", 1);map4.put("2", 1);map4.put("4", 1);map4.put("3", 1);
+		map4.keySet();
+//		Utils.print(map4.keySet(),map4.keySet(),"hello,world!");
+//		Utils.setBlockStart();
+//		Long sum = 0L;
+//		for(Long i=0L;i<Integer.MAX_VALUE;i++){
+//			sum+=i;
+//		}
+//		Utils.getBlockConsuming();
+		Utils.setBlockStart();
+		HashMap aaa = new HashMap();
+		try{
+			
+		}catch(Exception e){
+			
+		}finally{
+			
+		}
+		Utils.getBlockConsuming("us");
+		
 		
 	}
 
