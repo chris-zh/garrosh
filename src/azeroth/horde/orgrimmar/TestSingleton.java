@@ -1,4 +1,5 @@
 package azeroth.horde.orgrimmar;
 
-public class  TestSingleton {
+ class  TestSingleton {
+	
 }
