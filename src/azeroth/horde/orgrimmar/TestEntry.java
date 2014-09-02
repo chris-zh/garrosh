@@ -71,6 +71,9 @@ public class TestEntry {
 		TestClass1 tc = new TestClass1();
 		TestClass2 tc2 = new TestClass2();
 		TestClass12 tc12 = new TestClass12();
+		System.getProperties().list(System.out);
+		System.out.println(System.getProperty("user.name"));
+		
 	}
 	
 }
