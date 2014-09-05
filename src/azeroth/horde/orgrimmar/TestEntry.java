@@ -2,7 +2,7 @@ package azeroth.horde.orgrimmar;
 import java.util.HashMap;
 import java.util.List;
 
-import azeroth.Utils;
+import azeroth.Util;
 import azeroth.alliance.stormwind.TestClass12;
 
 public class TestEntry {
@@ -57,7 +57,7 @@ public class TestEntry {
 //			sum+=i;
 //		}
 //		Utils.getBlockConsuming();
-		Utils.setBlockStart();
+		Util.setBlockStart();
 //		HashMap aaa = new HashMap();
 //		try{
 //			

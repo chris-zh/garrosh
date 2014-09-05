@@ -1,6 +1,6 @@
 package azeroth.effectivejava;
 
-import azeroth.Utils;
+import azeroth.Util;
 
 /**
  * main method
@@ -9,7 +9,7 @@ import azeroth.Utils;
  */
 public class MainEntry {
 	public static void main(String[] args) {
-		Utils.print("Hello,world!");
+		Util.print("Hello,world!");
 	}
 
 }
